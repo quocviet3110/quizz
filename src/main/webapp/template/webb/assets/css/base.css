@@ -1,0 +1,35 @@
+/* Dựng base CSS */
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --my-color: #3a4bcd;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* End Dựng base CSS */
+
+
